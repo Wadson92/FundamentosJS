@@ -38,7 +38,6 @@ for (let index = 0; index < basket.length; index += 1){
     result[fruits] += 1;
   }
 }
-
 const entries = Object.entries(result);
 
 const newArray = [];
@@ -50,5 +49,4 @@ for (let index = 0; index < entries.length; index += 1){
     newArray.push(`${entries[index][1]} ${entries[index][0]}`);
   };
 };
-console.log(newArray)
 console.log(`Sua cesta possui: ${newArray.join(', ')}.`);
