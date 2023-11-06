@@ -25,6 +25,8 @@ const basket = [
   'Banana', 'Pera', 'Abacate', 'Uva',
 ];
 
+
+
 const result = {};
 
 const arrayToObj = () => {
